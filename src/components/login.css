@@ -1,0 +1,126 @@
+*{
+    font-family: 'Roboto',sans-serif;
+}
+.login-form{
+    background-color: #ffffff;
+}
+
+.login-form-title{
+    position: relative;
+    width: 100%;
+    color:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    height: 5em;
+    background-color: #ff4f80;
+}
+.login-form .login-icon{
+    position: absolute;
+    font-size: 3rem;
+    bottom:-40px;
+    box-shadow:1px 1px 6px 0px rgba(50, 50, 50, 0.75);
+    color: #ff4f80;
+    padding: 0.1em 0.2em;
+    border-radius: 50%;
+    background-color: white;
+}
+.login-form form{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form span{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+    font-size: 1.3rem;
+}
+.login-form form div{
+    padding:0.5em 0em;
+}
+.login-form fieldset{
+    width: 250px;
+    padding: 0px 10px 2px 10px; 
+    border-radius: 3px;
+    border: 1px solid #000000;
+    display: flex;
+    align-items: center;
+}
+  
+  .login-form fieldset legend{
+    color:#000000;
+    font-weight: 500;
+  }
+
+.login-form fieldset input{
+    width: 80%;
+    height: 25px;
+    border: none;
+  }
+
+  .login-form fieldset .error-icon{
+      width: 20%;
+      height: 20px;
+    display: grid;
+    place-content: center;
+  }
+
+  .login-form-login{
+      display: flex;
+      flex-direction: column;
+  }
+  .login-form button:nth-of-type(1){
+    height: fit-content;
+    width: 270px;
+    padding:1em 2em;
+    background-color: #ff4f80;
+    color:#ffffff;
+    border: 0;
+}
+
+.login-form button:nth-of-type(1):hover{
+    opacity: 0.95;
+}
+
+
+.login-form button:nth-of-type(2){
+    border: 0;
+    margin-top: 1em;
+    background-color: #ffffff;
+    color: #ff4f80;
+}
+
+.login-form button:nth-of-type(2):hover{
+    text-decoration: underline;
+}
+
+.errormessage{
+    color:red;
+    font-size: 0.8rem;
+}
+
+.login-form .loginform-button{
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.login-form .loginform-button button{
+    width: fit-content;
+    height: fit-content;
+    background-color: #ffffff;
+    color:#ff4f80;
+    margin-top: -3em;
+    margin-bottom:2.5em;
+}
+
+.login-form .loginform-button button:hover{
+    text-decoration: underline;
+}

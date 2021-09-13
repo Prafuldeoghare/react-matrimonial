@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.adminboard-nav{
+    width: 100%;
+    height: 5em;
+    background-color: #FF4F80;
+    color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    position: sticky;
+}
+
+.adminboard-nav nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 5em;
+}
+
+.adminboard-nav nav .adminnav-title{
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.adminnav-title .adminnav-icons{
+    font-size: 2rem;
+    margin-right: 0.2em;
+}
+
+.adminboard-nav nav .admin-list{
+    display: flex;
+    list-style-type: none;
+}
+
+.adminboard-nav nav .admin-list li{
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 0.5em 1.1em;
+    font-size: 0.95rem;
+    margin: 0em 1.7em;
+}
+
+
+.adminboard-nav nav .admin-list li:hover, .adminboard-nav nav .admin-list .buttonactive{    
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #FF4F80;
+    box-shadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.admin-list .adminlist-icon{
+    margin-right: 0.25em;
+    font-size: 1.2rem;
+}
+
+.admin-list .icon1{
+    margin-top: -0.1em;
+}
+.admindashboard{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.admindashboard table, td, th {  
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+
+  .admindashboard table {
+    border-collapse: collapse;
+    width: 95%;
+  }
+  
+  .admindashboard table tr th{
+        font-weight: bold;
+  }
+
+  .admindashboard table th,.admindashboard table td {
+    padding: 0.5em 0.4em;
+  }
+
+ .admindashboard table td button{
+     background-color: #FF4F80;
+     height: 2em;
+     width: 5em;
+     padding:0.5em 0.4em;
+     border: none;
+     color: #ffffff;
+ }

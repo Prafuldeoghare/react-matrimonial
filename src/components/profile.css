@@ -1,0 +1,78 @@
+.profile{
+    height: 50vh;
+    width: 95vw;
+}
+.profile .profile-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile .profile-container .aside-container{
+    width: 25%;
+    height: 100vh;
+}
+
+.profile .profile-container aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile .profile-container aside img{
+    margin-top: 2em;
+    height: 8em;
+    width: 8em;
+    border-radius: 50%;
+}
+
+.profile .profile-container aside span{
+    margin-top: 1em;
+    font-size: 1.2rem;
+    color:#000000;
+}
+.profile .profile-container .main-container{
+    display: flex;
+    width: 90%;
+    height: 100vh;
+    color: #000000;
+}
+
+.profile .profile-container .main-container .closebutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    width: 10%;
+    height: 100vh;
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+.profile .profile-container .main-container main{
+    width: 90%;
+    height: 100vh;
+    padding:1em
+}
+
+.profile main fieldset{
+    margin-top: 1em;
+}
+
+
+.profile main fieldset legend{
+    text-align: left;
+}
+
+
+.profile main fieldset table{
+    margin: 0.5em 0em;
+}
+
+.profile main fieldset table tr{
+    padding: 1em 0em;
+}
+.profile main fieldset table tr td{
+    padding: 0.2em 1em;
+    border: none;
+    text-transform: capitalize;
+    text-align: left;
+}

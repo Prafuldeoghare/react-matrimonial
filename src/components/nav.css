@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.navbar{
+    width: 100%;
+    height: 5em;
+    background-color: #FF4F80;
+    color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    position: sticky;
+}
+
+.navbar nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 5em;
+}
+
+.navbar nav .nav-title{
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-title .nav-icons{
+    font-size: 2rem
+}
+
+.navbar nav .nav-title span{
+    margin-left: 0.1em;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li{
+    padding: 0.5em 1.1em;
+    font-size: 0.9rem;
+    margin: 0em 1.7em;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    transition: all 0.1s linear;
+}
+
+nav ul li:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #FF4F80;
+    box-shadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.sucessfulmodal{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #111;
+    font-size: 1.3em;
+
+}
+
+
+.sucessfulmodal .sucessfulmodal-icon{
+    font-size: 3.5rem;
+    color: green;
+    margin-top: 1.6em;
+}
+
+.sucessfulmodal button{
+    height: fit-content;
+    width: fit-content;
+    font-size: 1.2rem;
+    margin-top: 1em;
+    padding: 0.4em 0.7em;
+    background-color: #FF4F80;
+    color: #ffffff;
+    border: none;
+}
